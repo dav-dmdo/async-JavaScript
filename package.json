@@ -1,0 +1,12 @@
+{
+  "name": "async-javascript",
+  "version": "1.0.0",
+  "description": "Este proyecto es para completar un curso sobre el manejo del asincronismo en JS. Pondre en practica mis conocimientos sobre funciones de callback, promises y el uso de las keywords async-await.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
