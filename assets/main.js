@@ -22,7 +22,8 @@ async function fetchData(urlAPI, resquestOptions){
 
 (async () => {
   const videos = await fetchData(API, options);
-  let view = `
+  let view = 
+  `
   ${videos.items.map(video => `
     <div class="group relative">
       <div
@@ -36,7 +37,8 @@ async function fetchData(urlAPI, resquestOptions){
         </h3>
       </div>
     </div>
-  `)}
+    `).join('')
+  }
   `
   content.innerHTML = view;
 
